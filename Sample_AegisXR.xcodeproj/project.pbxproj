@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7FDDB3F02F4C200000000001 /* yolo11n.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = 7FDDB3F12F4C200000000001 /* yolo11n.mlpackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7FDDB3DD2F4C14F000B6B94D /* Sample_AegisXR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_AegisXR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDDB3F12F4C200000000001 /* yolo11n.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = yolo11n.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				7FDDB3DF2F4C14F000B6B94D /* Sample_AegisXR */,
+				7FDDB3F22F4C200000000001 /* Sample_AegisXR/Models */,
 				7FDDB3DE2F4C14F000B6B94D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +49,14 @@
 				7FDDB3DD2F4C14F000B6B94D /* Sample_AegisXR.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7FDDB3F22F4C200000000001 /* Sample_AegisXR/Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FDDB3F12F4C200000000001 /* yolo11n.mlpackage */,
+			);
+			path = Sample_AegisXR/Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDDB3F02F4C200000000001 /* yolo11n.mlpackage in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +266,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TD4PJZ632;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for real-time object detection.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,8 +299,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TD4PJZ632;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for real-time object detection.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
